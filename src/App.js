@@ -1,26 +1,41 @@
 import React from 'react';
-import logo from './logo.svg';
+import { BrowserRouter as Router, Route, Redirect} from "react-router-dom";
 import './App.css';
+import Form from './form';
+import Cookie from './cookie';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Router>
+      <Route path='/' >
+        <Form />
+      </Route>
+
+      {
+        Cookie.getCookie() === null ? (
+          <Redirect to='/' />
+        ) : (
+
+          <Route path='/etape1' component={() => { 
+            window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSdhiwxLPVi_ppt84kvQwv5cNM1PbwT_o_EC8mqGZs6Z4iRx4g/viewform?usp=pp_url&entry.433624650=' + Cookie.getCookie() ;
+            return null;
+          }} />
+        )
+      }
+
+{
+        Cookie.getCookie() === null ? (
+          <Redirect to='/' />
+        ) : (
+          <Route path='/etape2' component={() => { 
+            window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSdhiwxLPVi_ppt84kvQwv5cNM1PbwT_o_EC8mqGZs6Z4iRx4g/viewform?usp=pp_url&entry.433624650=david' ;
+            return null;
+          }} />
+        )
+      }
+
+    </Router>
+  ) 
 }
 
 export default App;
