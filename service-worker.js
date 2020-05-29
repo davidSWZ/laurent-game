@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/laurent-game/precache-manifest.b790e4ec1b04be7577e1fd7883a0e255.js"
+  "/laurent-game/precache-manifest.878d871ceffbb89c4e8878292632458a.js"
 );
 
 self.addEventListener('message', (event) => {

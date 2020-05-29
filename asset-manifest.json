@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/laurent-game/static/css/main.36497136.chunk.css",
-    "main.js": "/laurent-game/static/js/main.de1d4161.chunk.js",
-    "main.js.map": "/laurent-game/static/js/main.de1d4161.chunk.js.map",
+    "main.css": "/laurent-game/static/css/main.2a6018f4.chunk.css",
+    "main.js": "/laurent-game/static/js/main.ddb4ca1c.chunk.js",
+    "main.js.map": "/laurent-game/static/js/main.ddb4ca1c.chunk.js.map",
     "runtime-main.js": "/laurent-game/static/js/runtime-main.974ab5ec.js",
     "runtime-main.js.map": "/laurent-game/static/js/runtime-main.974ab5ec.js.map",
-    "static/js/2.521cd4ab.chunk.js": "/laurent-game/static/js/2.521cd4ab.chunk.js",
-    "static/js/2.521cd4ab.chunk.js.map": "/laurent-game/static/js/2.521cd4ab.chunk.js.map",
+    "static/js/2.a8d523f8.chunk.js": "/laurent-game/static/js/2.a8d523f8.chunk.js",
+    "static/js/2.a8d523f8.chunk.js.map": "/laurent-game/static/js/2.a8d523f8.chunk.js.map",
     "index.html": "/laurent-game/index.html",
-    "precache-manifest.b790e4ec1b04be7577e1fd7883a0e255.js": "/laurent-game/precache-manifest.b790e4ec1b04be7577e1fd7883a0e255.js",
+    "precache-manifest.878d871ceffbb89c4e8878292632458a.js": "/laurent-game/precache-manifest.878d871ceffbb89c4e8878292632458a.js",
     "service-worker.js": "/laurent-game/service-worker.js",
-    "static/css/main.36497136.chunk.css.map": "/laurent-game/static/css/main.36497136.chunk.css.map",
-    "static/js/2.521cd4ab.chunk.js.LICENSE.txt": "/laurent-game/static/js/2.521cd4ab.chunk.js.LICENSE.txt"
+    "static/css/main.2a6018f4.chunk.css.map": "/laurent-game/static/css/main.2a6018f4.chunk.css.map",
+    "static/js/2.a8d523f8.chunk.js.LICENSE.txt": "/laurent-game/static/js/2.a8d523f8.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.974ab5ec.js",
-    "static/js/2.521cd4ab.chunk.js",
-    "static/css/main.36497136.chunk.css",
-    "static/js/main.de1d4161.chunk.js"
+    "static/js/2.a8d523f8.chunk.js",
+    "static/css/main.2a6018f4.chunk.css",
+    "static/js/main.ddb4ca1c.chunk.js"
   ]
 }
