@@ -2,12 +2,12 @@ import Cookies from 'universal-cookie';
 
 const cookies = new Cookies();
 
-function setCookie(firstName, name) { 
+function setCookie(firstName, name, register) { 
     if(firstName !== "" && name !== "") {
         cookies.set('firstname', firstName, { path: '/', sameSite: true });
         cookies.set('name', name, { path: '/', sameSite: true });
+        register();
     }
-    
 }
 
 function getCookie() {
