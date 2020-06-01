@@ -23,7 +23,7 @@ function App() {
   return (
     <Router>
 
-      <Route path='/admin' >
+      <Route path={process.env.PUBLIC_URL + '/admin'} >
         <Admin />
       </Route>
 
