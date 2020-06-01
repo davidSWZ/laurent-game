@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "662441db4b7e1caa8a3d94aab35304e1",
+    "revision": "ec0e5a20638165fb798db08bc76a21e9",
     "url": "/laurent-game/index.html"
   },
   {
-    "revision": "f3398aca9f8ec7781b15",
+    "revision": "231b4463e0d8c2f3d576",
     "url": "/laurent-game/static/css/main.6ee62c46.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/laurent-game/static/js/2.fb270d54.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f3398aca9f8ec7781b15",
-    "url": "/laurent-game/static/js/main.e181ff29.chunk.js"
+    "revision": "231b4463e0d8c2f3d576",
+    "url": "/laurent-game/static/js/main.ee179e52.chunk.js"
   },
   {
     "revision": "0cf7d96619bb9345cec6",
