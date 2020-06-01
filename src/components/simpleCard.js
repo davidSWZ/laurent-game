@@ -8,7 +8,6 @@ import Fab from '@material-ui/core/Fab';
 import SendIcon from '@material-ui/icons/Send';
 import Typography from '@material-ui/core/Typography';
 import TextField from '@material-ui/core/TextField';
-import RadioForm from './radio';
 import DirectionsRunRoundedIcon from '@material-ui/icons/DirectionsRunRounded';
 
 import '../App.css';
@@ -53,9 +52,7 @@ function SimpleCard(props) {
                 value={name} 
                 onChange={(e) => setName(e.target.value) }
               />
-    
-              <RadioForm />
-    
+      
               <CardActions>
                 <Fab variant="extended" color="primary" onClick={ () => Cookie.setCookie(firstName, name, props.register ) }>
                   <SendIcon className = "" />

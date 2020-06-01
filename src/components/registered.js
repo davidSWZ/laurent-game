@@ -14,6 +14,9 @@ function Registered() {
             <Card className= "valide-card">
             <CardContent>
                 <Typography variant="h3" gutterBottom>
+                  Vous êtes bien inscrit. Merci de rescanner le QR code
+                </Typography>
+                <Typography variant="h3" gutterBottom>
                 Bon parcours!
                 </Typography>
                 </CardContent>

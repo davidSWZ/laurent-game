@@ -1,23 +1,17 @@
-import React, {useState} from 'react';
-import Cookie from './cookie';
+import React from 'react';
 import SimpleCard from './simpleCard';
-import Registered from './registered';
+import { BrowserRouter as Redirect} from "react-router-dom";
 
-function Form() {
-
-  const[registered, setRegistered] = useState(false);
-
+function Form(props) {
+  
   return (
-    Cookie.getCookie() === null && registered === false ? 
+    props.registered === false ? 
       <div className="App">
         <div className = "header"></div> 
-        <SimpleCard register = { () => setRegistered(true) }/>
+        <SimpleCard register = { props.register } />
       </div>
       : 
-      <div className="App">
-        <div className = "header"></div> 
-        <Registered />
-      </div>
+      <Redirect to={props.location.pathname} />
   ) 
 }
 export default Form;

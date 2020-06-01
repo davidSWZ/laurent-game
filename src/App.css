@@ -59,3 +59,9 @@ body {
     height: 200px  ;
     text-align: center;
 }
+
+.encodedUrl {
+    width: 100% !important;
+    text-overflow: ellipsis; 
+    overflow: hidden;
+}
