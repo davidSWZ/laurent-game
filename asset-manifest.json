@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/laurent-game/static/css/main.2a6018f4.chunk.css",
-    "main.js": "/laurent-game/static/js/main.ddb4ca1c.chunk.js",
-    "main.js.map": "/laurent-game/static/js/main.ddb4ca1c.chunk.js.map",
+    "main.css": "/laurent-game/static/css/main.6ee62c46.chunk.css",
+    "main.js": "/laurent-game/static/js/main.e181ff29.chunk.js",
+    "main.js.map": "/laurent-game/static/js/main.e181ff29.chunk.js.map",
     "runtime-main.js": "/laurent-game/static/js/runtime-main.974ab5ec.js",
     "runtime-main.js.map": "/laurent-game/static/js/runtime-main.974ab5ec.js.map",
-    "static/js/2.a8d523f8.chunk.js": "/laurent-game/static/js/2.a8d523f8.chunk.js",
-    "static/js/2.a8d523f8.chunk.js.map": "/laurent-game/static/js/2.a8d523f8.chunk.js.map",
+    "static/js/2.fb270d54.chunk.js": "/laurent-game/static/js/2.fb270d54.chunk.js",
+    "static/js/2.fb270d54.chunk.js.map": "/laurent-game/static/js/2.fb270d54.chunk.js.map",
     "index.html": "/laurent-game/index.html",
-    "precache-manifest.878d871ceffbb89c4e8878292632458a.js": "/laurent-game/precache-manifest.878d871ceffbb89c4e8878292632458a.js",
+    "precache-manifest.ea42d654f8ffd54dcc9c869aa064f69b.js": "/laurent-game/precache-manifest.ea42d654f8ffd54dcc9c869aa064f69b.js",
     "service-worker.js": "/laurent-game/service-worker.js",
-    "static/css/main.2a6018f4.chunk.css.map": "/laurent-game/static/css/main.2a6018f4.chunk.css.map",
-    "static/js/2.a8d523f8.chunk.js.LICENSE.txt": "/laurent-game/static/js/2.a8d523f8.chunk.js.LICENSE.txt"
+    "static/css/main.6ee62c46.chunk.css.map": "/laurent-game/static/css/main.6ee62c46.chunk.css.map",
+    "static/js/2.fb270d54.chunk.js.LICENSE.txt": "/laurent-game/static/js/2.fb270d54.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.974ab5ec.js",
-    "static/js/2.a8d523f8.chunk.js",
-    "static/css/main.2a6018f4.chunk.css",
-    "static/js/main.ddb4ca1c.chunk.js"
+    "static/js/2.fb270d54.chunk.js",
+    "static/css/main.6ee62c46.chunk.css",
+    "static/js/main.e181ff29.chunk.js"
   ]
 }
