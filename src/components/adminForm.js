@@ -21,7 +21,7 @@ function AdminForm(props) {
 
     const createGFurl = (e) => {
       const encodedURL = encodeURIComponent(url);
-      return("http://localhost:3000/redirect/"+encodedURL);
+      return("https://laurent-game.herokuapp.com/redirect/"+encodedURL);
     }
 
     return (
