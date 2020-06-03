@@ -21,21 +21,17 @@ function App() {
   const[registered, setRegistered] = useState(false);
 
   return (
-    <div>
-      <p>coucou</p>
-      <Router>
+    <Router>
 
-        <Route path='/admin'  >
-          <Admin />
-        </Route>
+    <Route path='/admin'  >
+      <Admin />
+    </Route>
 
-        <Route path='/redirect/:urlForm' component={
-          Cookie.getCookie() === null ? () => <Form registered={registered} register={ () => setRegistered(true) } /> : Redirection
-        } />
-  
-      </Router>
-    </div>
-    
+    <Route path='/redirect/:urlForm' component={
+      Cookie.getCookie() === null ? () => <Form registered={registered} register={ () => setRegistered(true) } /> : Redirection
+    } />
+
+  </Router>    
   ) 
 }
 
