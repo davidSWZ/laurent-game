@@ -3,7 +3,6 @@ import SimpleCard from './simpleCard';
 import { BrowserRouter as Redirect} from "react-router-dom";
 
 function Form(props) {
-  
   return (
     props.registered === false ? 
       <div className="App">

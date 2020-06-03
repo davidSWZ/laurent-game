@@ -16,13 +16,15 @@ import '../App.css';
 function AdminForm(props) {
 
     const [url, setUrl] = useState(""); 
-    const [encodedGFurl, setEncodedGFurl] = useState("");
     const [copied, setCopied] = useState(false);
 
     const createGFurl = (e) => {
+      const hostNameUrl = window.location.hostname === 'localhost' ? "http://localhost:3000/redirect/": "https://laurent-game.herokuapp.com/redirect/";
       const encodedURL = encodeURIComponent(url);
-      return("https://laurent-game.herokuapp.com/redirect/"+encodedURL);
+      return(hostNameUrl+encodedURL);
     }
+
+
 
     return (
       <div className = "card">
