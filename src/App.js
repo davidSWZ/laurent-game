@@ -23,7 +23,7 @@ function App() {
   return (
     <Router>
 
-      <Route path={process.env.PUBLIC_URL + '/admin'} >
+      <Route path='/laurent-game/admin'  >
         <Admin />
       </Route>
 
